@@ -1,0 +1,36 @@
+
+.label{
+    display: inline-flex;
+    position: relative;
+    font-size: 10px;
+}
+
+.checkbox{
+    font-size: 10px;
+    height: 12px;
+    width: 12px;    
+    appearance: none;
+    border: 2px solid white;
+    border-radius: 4px;   
+    background-color: transparent;  
+}
+
+.label > input:checked {
+    
+    background-color: white;
+}
+
+.span{
+     font-size: 10px;   
+}
+
+.a{
+    font-size: 10px;
+    margin-top: 10px;
+    color: white;
+}
+.rem{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}

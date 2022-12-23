@@ -1,0 +1,42 @@
+.input{
+   display: flex;
+   align-items: stretch; 
+   align-content: stretch;
+   justify-content: center;
+   flex-direction: column;
+   background-color: transparent;
+   border-radius: 30px;
+   margin-top: 30px;
+   padding: 6px;
+   width: 200px;   
+   color: white;  
+   text-align: center;  
+   border-color: rgba(253,187,45,1);
+   font-family: "work sans"; 
+   
+   
+}
+ 
+ @media screen and (min-width: 400px) {
+   .input {
+      
+     width: 125px;    
+     align-content: stretch;
+     align-items: center;     
+    
+   }
+ }
+
+ @media(min-width: 576px){
+   .input {
+      width: 150px;    
+        
+    }
+ }
+ 
+ @media(min-width: 768px){
+   .input {
+      width: 175px;   
+    
+    }
+ }

@@ -1,0 +1,9 @@
+.error{
+    margin-bottom: 0.5rem;
+    color: rgb(179, 27, 27);
+    align-items: center;
+    text-align: center;  
+    margin: 10px;
+    font-family: "work sans"; 
+    font-style: italic;
+}
